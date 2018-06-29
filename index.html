@@ -3,9 +3,6 @@
 <head>
   <meta charset="utf-8" />
   <title>Exercice 6</title>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-  			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  			  crossorigin="anonymous"></script>
 </head>
   <ul>
     <li>Html</li>
@@ -22,8 +19,13 @@
     <li>Symfony</li>
     <li class="hide">Laravel</li>
   </ol>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 <script>
-  $('.hide').hide();
+  $(function () {
+    $('.hide').hide();
+  });
 </script>
 </body>
 </html>
